@@ -1,0 +1,11 @@
+lis = [1,2,3,4,5,6,7,7,7,7,43,4,5,6,3,4]
+dup = lis * 4
+
+#print(dup)
+lis.remove(7)
+value =lis.pop(7) # pop removes and returs the  element 
+print(f"the value is {value}")
+ranks = ('Two', 'Three', 'Four', 'Five', 'Six', 'Seven', 'Eight', 'Nine', 'Ten', 'Jack', 'Queen', 'King', 'Ace')
+td = list(ranks)
+st = td.pop(4)
+print(st)
